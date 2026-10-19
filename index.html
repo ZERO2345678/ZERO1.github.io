@@ -1,50 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="My student developer portfolio">
-  <title>Ezra Aynalem | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-  <header class="site-header">
-    <a class="logo" href="#home">&lt;/&gt; <span>Ezra Aynalem</span></a>
-    <nav aria-label="Main navigation">
-      <a href="#home">Home</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-
-  <main>
-    <section class="profile section" id="home">
-      <div>
-        <p class="eyebrow"><i></i> STUDENT DEVELOPER</p>
-        <h1>Hi, I'm <span>Ezra Aynalem.</span></h1>
-        <h2>I enjoy learning how software works.</h2>
-        <p class="muted">I'm a student developer building my skills in programming and web development. This portfolio
-          is where I'll share what I'm learning, the tools I use, and projects I complete along the way.</p>
-        <div class="actions">
-          <a class="btn primary" href="#about">Get to know me ↘</a>
-          <a class="btn secondary" href="#contact">Contact</a>
-        </div>
-        <p class="note">Currently learning: C++, Java, Python, and web development.</p>
-      </div>
-      <div class="visual">
-        <div class="orbit"></div>
-        <div class="code">
-          <div class="code-head">
-            <i></i>
-            <i></i>
-            <i></i>
-            <small>about_me.js</small>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ezra Aynalem's personal portfolio">
+    <title>Ezra Aynalem | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="header">
+      <a class="brand" href="#home"><span>&lt;/&gt;</span> Ezra Aynalem</a>
+      <nav aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero section" id="home">
+        <div>
+          <p class="eyebrow"><i></i> STUDENT DEVELOPER</p>
+          <h1>Hi, I'm <span>Ezra Aynalem.</span></h1>
+          <h2>I enjoy learning how software works.</h2>
+          <p class="muted">I'm a student developer building my skills in programming and web development. This portfolio is where I'll share what I'm learning, the tools I use, and projects I complete along the way.</p>
+          <div class="actions">
+            <a class="btn primary" href="#about">Get to know me ↘</a>
+            <a class="btn secondary" href="#contact">Contact</a>
           </div>
-          <pre><code><b>const</b> developer = {
+          <p class="note">Currently learning: C++, Java, Python, and web development.</p>
+        </div>
+        <div class="visual">
+          <div class="orbit"></div>
+          <div class="code">
+            <div class="code-head">
+              <i></i>
+              <i></i>
+              <i></i>
+              <small>about_me.js</small>
+            </div>
+            <pre><code><b>const</b> developer = {
   name: <em>"Ezra Aynalem"</em>,
   curious: <strong>true</strong>,
   learning: [
@@ -53,24 +49,102 @@
   ],
   keepGoing: <strong>true</strong>
 };</code></pre>
-          <div class="code-foot">● Building skills one step at a time</div>
+            <div class="code-foot">● Building skills one step at a time</div>
+          </div>
+          <span class="float top">{ }</span>
+          <span class="float bottom">Hello, world!</span>
         </div>
-        <span class="float top">{ }</span>
-        <span class="float bottom">Hello, world!</span>
-      </div>
-    </section>
-
-
-
-
-
-
-
-
-
-  </main>
-
-
-</body>
-
+      </section>
+      <section class="section" id="about">
+        <p class="eyebrow">01 / ABOUT</p>
+        <h2>A little about me</h2>
+        <div class="about-card">
+          <div class="avatar">EA</div>
+          <div>
+            <h3>Learning by building</h3>
+            <p class="muted">I'm developing my programming skills through coursework and personal projects. I like understanding how things work, solving problems, and turning what I learn into something practical. This website will grow as I complete more work.</p>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="skills">
+        <p class="eyebrow">02 / SKILLS</p>
+        <h2>Tools I'm learning</h2>
+        <p class="muted">A snapshot of the languages and tools I currently work with.</p>
+        <div class="skills">
+          <article>
+            <b class="cpp">C++</b>
+            <div>
+              <h3>C++</h3>
+              <p>Programming fundamentals</p>
+            </div>
+          </article>
+          <article>
+            <b class="java">J</b>
+            <div>
+              <h3>Java</h3>
+              <p>Object-oriented programming</p>
+            </div>
+          </article>
+          <article>
+            <b class="python">Py</b>
+            <div>
+              <h3>Python</h3>
+              <p>Writing useful programs</p>
+            </div>
+          </article>
+          <article>
+            <b class="html">5</b>
+            <div>
+              <h3>HTML &amp; CSS</h3>
+              <p>Building and styling pages</p>
+            </div>
+          </article>
+          <article>
+            <b class="js">JS</b>
+            <div>
+              <h3>JavaScript</h3>
+              <p>Adding web interactivity</p>
+            </div>
+          </article>
+          <article>
+            <b class="git">Git</b>
+            <div>
+              <h3>Git &amp; GitHub</h3>
+              <p>Tracking and sharing code</p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section" id="projects">
+        <p class="eyebrow">03 / PROJECTS</p>
+        <h2>My work is growing</h2>
+        <p class="muted max">I'm preparing this section for my own projects. I'll add each one with a clear description, screenshots, and a link to its source code.</p>
+        <div class="placeholder">
+          <b>&lt;/&gt;</b>
+          <div>
+            <h3>Projects coming soon</h3>
+            <p class="muted">I'm organizing my previous work before adding it here. Check back as this portfolio develops.</p>
+          </div>
+          <span>IN PROGRESS</span>
+        </div>
+      </section>
+      <section class="section" id="contact">
+        <div class="contact">
+          <div>
+            <p class="eyebrow">04 / CONTACT</p>
+            <h2>Let's connect.</h2>
+            <p class="muted">Visit my GitHub profile to follow my learning progress and see my public repositories.</p>
+          </div>
+          <a class="btn primary" href="https://github.com/ZERO2345678" target="_blank" rel="noopener noreferrer">Visit my GitHub ↗</a>
+        </div>
+        <p class="note">GitHub username: ZERO2345678</p>
+      </section>
+    </main>
+    <footer>
+      <a class="brand" href="#home"><span>&lt;/&gt;</span> Ezra Aynalem</a>
+      <p>Made while learning. Updated as I grow.</p>
+      <p>© <b id="year"></b> Ezra Aynalem</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
