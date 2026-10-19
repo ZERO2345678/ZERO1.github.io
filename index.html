@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
   <title>Ezra Aynalem | Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header class="site-header">
     <a class="logo" href="#home">&lt;/&gt; <span>Ezra Aynalem</span></a>
@@ -20,90 +22,55 @@
   </header>
 
   <main>
-    <section class="hero section" id="home">
-      <div class="hero-copy">
-        <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
-        <h1>Hello, I'm <span>Ezra Aynalem</span></h1>
-        <h2>Student Developer</h2>
-        <p>I am a passionate student developer in Arba Minch University.</p>
-        <p>I am currently learning programming and web development. I enjoy solving problems, building projects, and improving my skills every day.</p>
+    <section class="profile section" id="home">
+      <div>
+        <p class="eyebrow"><i></i> STUDENT DEVELOPER</p>
+        <h1>Hi, I'm <span>Ezra Aynalem.</span></h1>
+        <h2>I enjoy learning how software works.</h2>
+        <p class="muted">I'm a student developer building my skills in programming and web development. This portfolio
+          is where I'll share what I'm learning, the tools I use, and projects I complete along the way.</p>
         <div class="actions">
-          <a class="button primary" href="#projects">View My Projects</a>
-          <a class="button secondary" href="#contact">Contact Me</a>
+          <a class="btn primary" href="#about">Get to know me ↘</a>
+          <a class="btn secondary" href="#contact">Contact</a>
         </div>
+        <p class="note">Currently learning: C++, Java, Python, and web development.</p>
       </div>
-      <div class="hero-art" aria-label="Decorative code illustration">
-        <div class="code-window">
-          <div class="window-dots"><i></i><i></i><i></i></div>
-          <p><span>const</span> developer = {</p>
-          <p class="indent">learning: <b>true</b>,</p>
-          <p class="indent">building: <b>"projects"</b>,</p>
-          <p class="indent">goal: <b>"keep improving"</b></p>
-          <p>};</p>
-          <div class="code-symbol">&lt;/&gt;</div>
+      <div class="visual">
+        <div class="orbit"></div>
+        <div class="code">
+          <div class="code-head">
+            <i></i>
+            <i></i>
+            <i></i>
+            <small>about_me.js</small>
+          </div>
+          <pre><code><b>const</b> developer = {
+  name: <em>"Ezra Aynalem"</em>,
+  curious: <strong>true</strong>,
+  learning: [
+    <em>"programming"</em>,
+    <em>"web development"</em>
+  ],
+  keepGoing: <strong>true</strong>
+};</code></pre>
+          <div class="code-foot">● Building skills one step at a time</div>
         </div>
+        <span class="float top">{ }</span>
+        <span class="float bottom">Hello, world!</span>
       </div>
     </section>
 
-    <section class="section" id="skills">
-      <div class="section-heading">
-        <p class="eyebrow">WHAT I AM LEARNING</p>
-        <h2>My Skills</h2>
-        <p>Update this list as you learn new tools and technologies.</p>
-      </div>
-      <div class="skill-grid">
-        <article class="skill-card"><span class="skill-icon orange">5</span><div><h3>HTML</h3><p>Web page structure</p></div></article>
-        <article class="skill-card"><span class="skill-icon blue">3</span><div><h3>CSS</h3><p>Layout and styling</p></div></article>
-        <article class="skill-card"><span class="skill-icon yellow">JS</span><div><h3>JavaScript</h3><p>Interactive websites</p></div></article>
-        <article class="skill-card"><span class="skill-icon red">Git</span><div><h3>Git & GitHub</h3><p>Version control</p></div></article>
-      </div>
-    </section>
 
-    <section class="section" id="projects">
-      <div class="section-heading">
-        <p class="eyebrow">MY WORK</p>
-        <h2>My Projects</h2>
-       <!-- <p>Replace these examples with your own projects and repository links.</p>-->
-      </div>
-      <div class="project-grid">
-        <article class="project-card"><span class="project-number">01</span><h3>Matching Card Memory Game</h3><p>A C++ game where players find matching cards.</p><span class="tag">C++</span></article>
-        <article class="project-card"><span class="project-number">02</span><h3>Menu and Order System</h3><p>A C++ program for taking orders and printing receipts.</p><span class="tag">C++</span></article>
-        <article class="project-card"><span class="project-number">03</span><h3>Traffic System Management</h3><p>A Java project for managing customer billing records.</p><span class="tag">Java</span></article>
-        <article class="project-card"><span class="project-number">04</span><h3>University Student Clinic Database</h3><p>A database design project with entities and relationships.</p><span class="tag">Database</span></article>
-      </div>
-    </section>
 
-    <section class="section about" id="about">
-      <div class="section-heading">
-        <p class="eyebrow">A LITTLE ABOUT ME</p>
-        <h2>About Me</h2>
-      </div>
-      <div class="about-content">
-        <p>I am a student developer interested in programming, web development, databases, and problem solving. I am building my skills by completing small projects and learning from feedback.</p>
-        <ul>
-          <li><strong>Role:</strong> Student</li>
-          <li><strong>Location:</strong> Ethiopia</li>
-          <li><strong>Interests:</strong> Coding, technology, problem solving</li>
-          <li><strong>Goal:</strong> Become a skilled software developer</li>
-        </ul>
-      </div>
-    </section>
 
-    <section class="section contact" id="contact">
-      <div class="section-heading">
-        <p class="eyebrow">LET'S CONNECT</p>
-        <h2>Contact Me</h2>
-        <!-- <p>Add your public contact details below. Do not publish passwords or private information.</p>-->
-      </div>
-      <div class="contact-links">
-        <a class="button primary" href="https://github.com/ZERO2345678">GitHub Profile</a>
-        <a class="button secondary" href="mailto:ezraaynalem@gmail.com">Email Me</a>
-      </div>
-      <!--<p class="small-note">Replace the sample email and GitHub link with your own details.</p>-->
-    </section>
+
+
+
+
+
   </main>
 
-  <footer><p>© <span id="year"></span> Ezra Aynalem. Built with HTML, CSS, and JavaScript.</p></footer>
-  <script src="script.js"></script>
+
 </body>
+
 </html>
