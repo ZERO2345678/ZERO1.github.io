@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');*/
 
 :root {
 	--bg: #090e1d;
@@ -439,6 +439,12 @@ p {
 .contact p:not(.eyebrow) {
 	max-width: 620px;
 	margin: 0;
+}
+.about-text {
+    color: #b8c1d9;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 16px;
 }
 
 .contact + .note {
