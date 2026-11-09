@@ -65,3 +65,27 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
         }
     });
 });
+
+const sections = document.querySelectorAll("section[id]");
+const navigationLinks = document.querySelectorAll(".nav-links a");
+
+const sectionObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const currentId = entry.target.id;
+
+            navigationLinks.forEach(link => {
+                const isActive =
+                    link.getAttribute("href") === `#${currentId}`;
+
+                link.classList.toggle("active", isActive);
+            });
+        }
+    });
+}, {
+    threshold: 0.3
+});
+
+sections.forEach(section => {
+    sectionObserver.observe(section);
+});
